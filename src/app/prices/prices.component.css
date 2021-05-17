@@ -1,0 +1,20 @@
+.price-list__container {
+    width: 100%;
+}
+
+.price-list_item--odd {
+    background-color: #c3c2c2;
+}
+
+.price-list_item--even {
+    background-color: #e8e8e8;
+}
+
+table {
+    margin: auto;
+}
+
+td {
+    width: 300px;
+    text-align: center;
+}

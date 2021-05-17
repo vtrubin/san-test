@@ -1,0 +1,17 @@
+<div class="price-list__container">
+  <table>
+    <thead>
+      <th>Name</th>
+      <th>Bid</th>
+      <th>Ask</th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let price of prices; let even = even; let odd = odd"
+        [ngClass]="{'price-list_item--odd': odd, 'price-list_item--even': even}">
+        <td>{{price.instrument}}</td>
+        <td>{{price.bid}}</td>
+        <td>{{price.ask}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
